@@ -4,8 +4,9 @@
   "description": "A simple full page modal react component",
   "main": "build/index.js",
   "scripts": {
-    "test": "test",
-    "build": "rollup -c"
+    "test": "jest",
+    "build": "rollup -c",
+    "prepublish": "build"
   },
   "keywords": ["modal", "react", "component"],
   "author": "Patrick Krawczykowski <pkrawz@gmail.com>",
